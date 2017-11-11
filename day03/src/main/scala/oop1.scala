@@ -12,6 +12,7 @@ class Student {
 }
 
 //半生对象  与类同名  object Student{}
+//必须是同一个文件中 可以相互访问私有方法和属性
 object oop1 {
   def main(args: Array[String]): Unit = {
     val s = new Student()
